@@ -25,7 +25,7 @@ const Header = () => {
     ]
     const pathName = window.location.pathname;
     return (
-        <div className='text-white'>
+        <div className='text-white fixed inset-0 z-50'>
             <div className={`flex bg-theme justify-between item-center p-2 shadow-lg ${showMenu == '' && 'md:flex-col'}`}>
                 <div className='flex justify-between items-center w-full'>
                     <h1 className='text-4xl font-semibold'>K S R</h1>
