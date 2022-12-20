@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaReact, FaGithub, FaTailwindcss } from 'react-icons/fa';
+import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaReact, FaGithub, FaPython } from 'react-icons/fa';
+import { SiTailwindcss } from "react-icons/si";
 
 function Home() {
     return (
@@ -30,15 +31,15 @@ function Home() {
                     <div>
                         <div className='grid md:grid-cols-2 grid-cols-4'>
                             <FaReact size={180} color='cyan' className='w-full text-center' />
-                            <FaGithub size={180} color='cyan' className='w-full text-center' />
-                            <FaHtml5 size={180} color='cyan' className='w-full text-center' />
+                            <FaGithub size={180} color='#24292f' className='w-full text-center' />
+                            <FaHtml5 size={180} color='#f46403' className='w-full text-center' />
 
-                            <FaBootstrap size={180} color='cyan' className='w-full text-center' />
-                            <FaJsSquare size={180} color='cyan' className='w-full text-center' />
-                            <FaCss3 size={180} color='cyan' className='w-full text-center' />
+                            <FaBootstrap size={180} color='#563d7c' className='w-full text-center' />
+                            <FaJsSquare size={180} color='green' className='w-full text-center' />
+                            <FaPython size={180} color='orange' className='w-full text-center' />
+                            <FaCss3 size={180} color='#1c36a2' className='w-full text-center' />
 
-                            <FaTailwindcss size={180} color='cyan' className='w-full text-center' />
-
+                            <SiTailwindcss size={180} color='#069' className='w-full text-center' />
                         </div>
                     </div>
                 </div>
