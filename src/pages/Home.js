@@ -1,11 +1,13 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaReact, FaGithub, FaTailwindcss } from 'react-icons/fa';
 
 function Home() {
     return (
         <div>
             <Layout>
                 <div>
+                    {/* intro section */}
                     <div className='h-screen bg-theme'>
                         <div className='grid md:grid-cols-1 grid-cols-2 h-screen items-center border-4 md:border-0
                         mx-10 z-10 bg-theme
@@ -23,6 +25,21 @@ function Home() {
                             </div>
                         </div>
 
+                    </div>
+                    {/* Technologies */}
+                    <div>
+                        <div className='grid md:grid-cols-2 grid-cols-4'>
+                            <FaReact size={180} color='cyan' className='w-full text-center' />
+                            <FaGithub size={180} color='cyan' className='w-full text-center' />
+                            <FaHtml5 size={180} color='cyan' className='w-full text-center' />
+
+                            <FaBootstrap size={180} color='cyan' className='w-full text-center' />
+                            <FaJsSquare size={180} color='cyan' className='w-full text-center' />
+                            <FaCss3 size={180} color='cyan' className='w-full text-center' />
+
+                            <FaTailwindcss size={180} color='cyan' className='w-full text-center' />
+
+                        </div>
                     </div>
                 </div>
             </Layout>
