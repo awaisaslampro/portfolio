@@ -28,18 +28,19 @@ function Home() {
 
                     </div>
                     {/* Technologies */}
-                    <div>
-                        <div className='grid md:grid-cols-2 grid-cols-4'>
-                            <FaReact size={180} color='cyan' className='w-full text-center' />
-                            <FaGithub size={180} color='#24292f' className='w-full text-center' />
-                            <FaHtml5 size={180} color='#f46403' className='w-full text-center' />
+                    <div className='mt-20'>
+                        <h1 className='my-8 text-4xl text-blue-800 font-bold text-center'>Technologies I USE</h1>
+                        <div className='grid md:grid-cols-1 grid-cols-4'>
+                            <FaReact size={180} color='cyan' className='w-full text-center mt-20' />
+                            <FaGithub size={180} color='#24292f' className='w-full text-center mt-20 animate-bounce' />
+                            <FaHtml5 size={180} color='#f46403' className='w-full text-center mt-20 animate-bounce' />
 
-                            <FaBootstrap size={180} color='#563d7c' className='w-full text-center' />
-                            <FaJsSquare size={180} color='green' className='w-full text-center' />
-                            <FaPython size={180} color='orange' className='w-full text-center' />
-                            <FaCss3 size={180} color='#1c36a2' className='w-full text-center' />
+                            <FaBootstrap size={180} color='#563d7c' className='w-full text-center mt-20' />
+                            <FaJsSquare size={180} color='green' className='w-full text-center mt-20 animate-bounce' />
+                            <FaPython size={180} color='orange' className='w-full text-center mt-20' />
+                            <FaCss3 size={180} color='#1c36a2' className='w-full text-center mt-20 ' />
 
-                            <SiTailwindcss size={180} color='#069' className='w-full text-center' />
+                            <SiTailwindcss size={180} color='#069' className='w-full text-center mt-20 animate-bounce' />
                         </div>
                     </div>
                 </div>
