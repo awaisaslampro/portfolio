@@ -10,7 +10,7 @@ function Home() {
                 <div>
                     {/* intro section */}
                     <div className='h-screen bg-theme'>
-                        <div className='grid md:grid-cols-1 grid-cols-2 h-screen items-center border-4 md:border-0
+                        <div className='grid onlyu grid md:grid-cols-1 grid-cols-2 h-screen items-center border-4 md:border-0
                         mx-10 z-10 bg-theme
                         border-white transform rotate-12 md:rotate-0 '>
                             <div className='h-1/2'>
@@ -43,6 +43,14 @@ function Home() {
                             <SiTailwindcss size={180} color='#069' className='w-full text-center mt-20 animate-bounce' />
                         </div>
                     </div>
+
+                    {/* Javascript Buff */}
+
+                    <div>
+
+                    </div>
+
+
                 </div>
             </Layout>
         </div>
