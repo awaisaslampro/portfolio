@@ -47,16 +47,16 @@ function Home() {
                     {/* Javascript Buff */}
                     <div className='my-20 '>
                         <div className='text-center h-52 bg-primary'>
-                            <h1 className='text-white font-bold text-4xl py-10'>Yes You Are Right... I am Javascript Buff</h1>
+                            <h1 className='text-white font-bold text-4xl py-10'>Yes, You Are Right... I am Javascript Buff</h1>
                         </div>
-                        <div>
+                        <div className='md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white'>
                             <div className='h-96'>
                                 <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_qjryhqec/data.json" background="transparent"
                                     speed="1" loop autoplay>
                                 </lottie-player>
                             </div>
 
-                            <p className='text-2xl'>
+                            <p className='text-xl my-5 font-semibold md:px-5 px-14 py-10'>
                                 Javascript is one of the most top ranked programming language because of its ubiquitous use on all
                                 platforms and mass adoption. Main use cases: Web Development.
                             </p>
