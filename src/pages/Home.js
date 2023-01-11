@@ -55,17 +55,41 @@ function Home() {
                                     speed="1" loop autoplay>
                                 </lottie-player>
                             </div>
-
                             <p className='text-xl my-5 font-semibold md:px-5 px-14 py-10'>
                                 Javascript is one of the most top ranked programming language because of its ubiquitous use on all
                                 platforms and mass adoption. Main use cases: Web Development.
                             </p>
-
                         </div>
-
                     </div>
 
+                    {/* Dev stack Section */}
+                    <div className='my-20 '>
+                        <div className='text-center h-52 bg-red-500'>
+                            <h1 className='text-white font-bold text-4xl py-10'>My DEV Stack</h1>
+                        </div>
+                        <div className='md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white'>
+                            <div className='h-96'>
+                                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_p1qiuawe.json" loop autoplay></lottie-player>
+                            </div>
+                            <p className='text-xl my-5 font-semibold md:px-5 px-14 py-10'>
+                                Javascript is one of the most top ranked programming language because of its ubiquitous use on all
+                                platforms and mass adoption. Main use cases: Web Development.
+                            </p>
+                        </div>
+                    </div>
 
+                    {/* Dev info */}
+                    <div>
+                        <h1 className='text-4xl text-gray-500 text-center'>Who is Awais</h1>
+                        <div className='h-screen relative'>
+                            <div className='h-full'>
+                                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_dcatp5cr.json" loop autoplay></lottie-player>
+                            </div>
+                            <div className='absolute inset-0 flex items-center justify-center'>
+                                <h1>Hello...</h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Layout>
         </div>
