@@ -80,13 +80,25 @@ function Home() {
 
                     {/* Dev info */}
                     <div>
-                        <h1 className='text-4xl text-gray-500 text-center'>Who is Awais</h1>
-                        <div className='h-screen relative'>
+                        <h1 className='text-4xl text-gray-500 text-center font-bold'>Who is Awais</h1>
+                        <div className='h-screen relative text-gray-800'>
                             <div className='h-full'>
                                 <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_dcatp5cr.json" loop autoplay></lottie-player>
                             </div>
-                            <div className='absolute inset-0 flex items-center justify-center'>
-                                <h1>Hello...</h1>
+                            <div className='absolute inset-0 flex flex-col items-center justify-center'>
+                                <h1 className='text-2xl font-bold'>Hello...
+                                    <hr />
+                                    <pre className='text-xl my-5 font-semibold'>
+                                        {JSON.stringify({
+                                            name: "Muhammad Awais",
+                                            age: null,
+                                            country: "Portugal",
+                                            gender: "male",
+                                            experience: true
+
+                                        }, null, 2)}
+                                    </pre>
+                                </h1>
                             </div>
                         </div>
                     </div>
