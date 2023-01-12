@@ -77,10 +77,9 @@ function Home() {
                             </p>
                         </div>
                     </div>
-
                     {/* Dev info */}
                     <div>
-                        <h1 className='text-4xl text-gray-500 text-center font-bold'>Who is Awais</h1>
+                        <h1 className='text-4xl text-gray-500 text-center font-bold'>Who is Awais ?</h1>
                         <div className='h-screen relative text-gray-800'>
                             <div className='h-full'>
                                 <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_dcatp5cr.json" loop autoplay></lottie-player>
@@ -88,7 +87,9 @@ function Home() {
                             <div className='absolute inset-0 flex flex-col items-center justify-center'>
                                 <h1 className='text-2xl font-bold'>Hello...
                                     <hr />
-                                    <pre className='text-xl my-5 font-semibold'>
+                                    {/* pre and Json.stingify used for defining text in object form. 
+                                    passing it arguments null,2 for the purpose written in html form */}
+                                    <pre className='text-xl md:text-sm my-5 font-semibold'>
                                         {JSON.stringify({
                                             name: "Muhammad Awais",
                                             age: null,
