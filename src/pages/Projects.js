@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Layout from '../components/Layout'
+import projectsData from '../resources/projects'
 
 
 const Projects = () => {
@@ -19,6 +20,15 @@ const Projects = () => {
                     <h1 className='text-7xl md:text-3xl'>THE GAME IS...</h1>
                     <h1 className='text-7xl md:text-3xl'>CONSISTANCY</h1>
                 </div>
+            </div>
+            <div className='grid md:grid-cols-1 grid-cols-2 mt-20'>
+                {projectsData.map(projects => {
+                    return (
+                        <div>
+                            <img src={projects.image} width="200" height="200" />
+                        </div>
+                    )
+                })}
             </div>
         </Layout>
     )
