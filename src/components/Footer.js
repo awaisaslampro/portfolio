@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
-function Footer() {
+function Footer(props) {
     return (
         <>
 
@@ -28,6 +28,7 @@ function Footer() {
 
 
                         <p className="text-gray-50 pt-5">Muhammad Awais</p>
+                        <p className="text-white">{props.name} and his {props.girlFriend}</p>
                     </div>
                 </div>
             </div>

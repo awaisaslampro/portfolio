@@ -25,7 +25,7 @@ const Projects = () => {
                 {projectsData.map(projects => {
                     return (
                         <div>
-                            <img src={projects.image} width="200" height="200" />
+                            <img src={projects.image} width="200" height="200" alt='projects' />
                         </div>
                     )
                 })}
