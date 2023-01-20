@@ -21,11 +21,11 @@ const Projects = () => {
                     <h1 className='text-7xl md:text-3xl'>CONSISTANCY</h1>
                 </div>
             </div>
-            <div className='grid md:grid-cols-1 grid-cols-2 mt-20'>
+            <div className='grid md:grid-cols-1 grid-cols-2 mt-20 items-center justify-center gap-10 mx-20 md:mx-5'>
                 {projectsData.map(projects => {
                     return (
-                        <div>
-                            <img src={projects.image} width="200" height="200" alt='projects' />
+                        <div className='p-10 text-center border-2 rounded-tr-3xl rounded-bl-3xl border-gray-400'>
+                            <img className="w-full h-52 text-center" src={projects.image} alt='projects' />
                         </div>
                     )
                 })}
@@ -33,6 +33,4 @@ const Projects = () => {
         </Layout>
     )
 }
-
-
 export default Projects
