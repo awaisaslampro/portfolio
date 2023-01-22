@@ -24,8 +24,14 @@ const Projects = () => {
             <div className='grid md:grid-cols-1 grid-cols-2 mt-20 items-center justify-center gap-10 mx-20 md:mx-5'>
                 {projectsData.map(projects => {
                     return (
-                        <div className='p-10 text-center border-2 rounded-tr-3xl rounded-bl-3xl border-gray-400'>
+                        <div className='relative p-10 text-center border-2 rounded-tr-3xl rounded-bl-3xl border-gray-200'>
                             <img className="w-full h-52 text-center" src={projects.image} alt='projects' />
+                            <div className='absolute inset-0 items-center justify-center flex flex-col opacity-0 hover:opacity-80 bg-black rounded-tr-3xl rounded-bl-3xl'>
+
+                                <h1 className='text-3xl font-semibold text-white'>{projects.title}</h1>
+                                <button className='border-2 rounded border-white p-2 hover:bg-green-500 py-1 px-8 mt-3 text-white font-semibold'>DEMO</button>
+                            </div>
+
                         </div>
                     )
                 })}
