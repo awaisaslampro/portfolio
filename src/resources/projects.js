@@ -6,7 +6,7 @@ const projectsData = [
         link: "/"
     },
     {
-        title: "April Army",
+        title: "April",
         image: "./R.jpg",
         description: "A musical web application developed using React and Material UI framework.",
         link: "/"
@@ -18,7 +18,7 @@ const projectsData = [
         link: "/"
     },
     {
-        title: "April Army",
+        title: "April",
         image: "./R.jpg",
         description: "A musical web application developed using React and Material UI framework.",
         link: "/"
@@ -30,7 +30,7 @@ const projectsData = [
         link: "/"
     },
     {
-        title: "April Army",
+        title: "April",
         image: "./R.jpg",
         description: "A musical web application developed using React and Material UI framework.",
         link: "/"
