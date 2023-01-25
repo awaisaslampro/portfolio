@@ -2,7 +2,8 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { FaBootstrap, FaCss3, FaHtml5, FaJsSquare, FaReact, FaGithub, FaPython } from 'react-icons/fa';
 import { SiTailwindcss } from "react-icons/si";
-
+import { AOS } from 'aos';
+AOS.init();
 function Home() {
     return (
         <div>
@@ -21,7 +22,7 @@ function Home() {
                                 </lottie-player>
                             </div>
                             <div className='font-bold text-white md:px-5'>
-                                <h1 className='text-7xl md:text-4xl'>Hi, I am <b className='text-yellow-500'>AWAIS</b></h1>
+                                <h1 className='text-7xl md:text-4xl' data-aos='slide-right'>Hi, I am <b className='text-yellow-500'>AWAIS</b></h1>
                                 <h1 className='text-4xl md:text-xl'>React JS <b className='text-red-500'>Developer</b></h1>
                             </div>
                         </div>

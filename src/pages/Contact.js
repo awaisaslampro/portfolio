@@ -9,11 +9,6 @@ function Contact() {
                     <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_in4cufsz.json"
                         background="transparent" speed="1" loop autoplay></lottie-player>
                 </div>
-
-                <div>
-                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_in4cufsz.json"
-                        background="transparent" speed="1" loop autoplay></lottie-player>
-                </div>
                 <div className='w-screen flex justify-center'>
                     <div className='md:w-full w-1/2 p-10 shadow-2xl bg-gray-50'>
                         <h1 className='font-semibold text-2xl'>Contact me to know more</h1>
