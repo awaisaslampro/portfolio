@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
 import { Link } from 'react-router-dom'
-import { FaBars } from "react-icons/fa";
+// import { FaBars } from "react-icons/fa";
 const Header = () => {
 
     const [showMenu, setShowMenu] = useState("md:hidden")
@@ -29,7 +29,7 @@ const Header = () => {
             <div className={`flex bg-theme justify-between item-center p-2 shadow-lg ${showMenu == '' && 'md:flex-col'}`}>
                 <div className='flex justify-between items-center w-full'>
                     <h1 className='text-4xl font-semibold'>K S R</h1>
-                    <FaBars className='lg:hidden xl:hidden 2xl:hidden md:flex cursor-pointer'
+                    {/* <FaBars className='lg:hidden xl:hidden 2xl:hidden md:flex cursor-pointer'
                         onClick={() => {
                             if (showMenu === "md:hidden") {
                                 setShowMenu("")
@@ -37,7 +37,7 @@ const Header = () => {
                             else {
                                 setShowMenu("md:hidden")
                             }
-                        }} />
+                        }} /> */}
                 </div>
                 <div className="flex md:hidden">
                     {menuItems.map((menu) => {

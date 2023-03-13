@@ -1,7 +1,5 @@
 import { React, useState } from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
-
-
+// import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
 function Footer(props) {
     const [name, setName] = useState("Anees");
 
@@ -22,12 +20,12 @@ function Footer(props) {
                         </div>
 
                         <div className="flex text-white w-full justify-between pt-5 pb-5">
-                            <FaLinkedin />
-                            <FaFacebook />
+
+                            {/* <FaFacebook />
                             <FaInstagram />
                             <FaMailBulk />
                             <FaLinkedin />
-                            <FaGithub />
+                            <FaGithub /> */}
 
                         </div>
                         <div className="h-1 border-2 border-gray-50 border-dotted">
@@ -35,7 +33,7 @@ function Footer(props) {
                         <button className="font-semibold border-4" onClick={changeName}>Change Name</button>
 
                         <p className="text-gray-50 pt-5">Muhammad Awais</p>
-                        <p className="text-white text-4xl">Name is: {name} </p>
+                        <p className="text-white text-4xl" onClick={props.changeSay}>Name is: {name} </p>
                     </div>
                 </div>
             </div>
